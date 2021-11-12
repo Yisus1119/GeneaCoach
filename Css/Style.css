@@ -1,0 +1,351 @@
+* {
+  @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+  font-family: "Roboto", sans-serif;
+}
+
+#header {
+  width: 100%;
+  height: 80px;
+  background: #4054B2;
+  display: flex;
+  justify-content: space-between;
+}
+#header .Container-nav-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin-left: 100px;
+}
+#header .Container-nav-logo a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+#header .nav {
+  display: flex;
+  align-items: center;
+  margin-right: 100px;
+}
+#header .nav .List .nav-item a {
+  padding: 8px 16px;
+}
+#header .nav .Botones {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#header .nav .Botones form .search {
+  margin: 8px 16px;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+}
+#header .nav .Botones form .search .search::placeholder {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+#header .nav .List {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0px;
+}
+#header .nav .List .nav_item, #header .nav .List li, #header .nav .List a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+* {
+  @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+  font-family: "Roboto", sans-serif;
+}
+
+#Button-1 {
+  text-decoration: none;
+  background: #4054B2;
+  color: #FFFFFF;
+  padding: 9px 20px;
+  margin: 0px 10px;
+  border-radius: 5px;
+  transition: 0.3s ease all;
+}
+
+#Button-1:hover {
+  background: #28377C;
+  color: #FFFFFF;
+}
+
+#Button-2 {
+  text-decoration: none;
+  background: #FFFFFF;
+  color: #4054B2;
+  padding: 8px 18px;
+  margin: 0px 10px;
+  border-radius: 5px;
+  transition: 0.3s ease all;
+}
+
+#Button-2:hover {
+  background: #84D95C;
+  color: #FFFFFF;
+}
+
+.Register-btn {
+  background: #4054B2;
+  color: #FFFFFF;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  padding: 15px 20px;
+  font-size: medium;
+  font-weight: 600;
+  border-radius: 6px 0px 0px 6px;
+  transition: 0.3s ease all;
+}
+
+.Register-btn:hover {
+  background: #28377C;
+  color: #FFFFFF;
+}
+
+.Login-btn {
+  background: #FFFFFF;
+  color: #84D95C;
+  border: 2px solid #84D95C;
+  text-decoration: none;
+  width: 100px;
+  text-align: center;
+  padding: 15px 20px;
+  font-size: medium;
+  font-weight: 600;
+  border-radius: 0px 6px 6px 0px;
+}
+
+.Login-btn:hover {
+  background: #84D95C;
+  color: #FFFFFF;
+}
+
+.Register1-btn {
+  background: #4054B2;
+  color: #FFFFFF;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  padding: 15px 20px;
+  font-size: medium;
+  font-weight: 600;
+  border-radius: 0px 6px 6px 0px;
+  transition: 0.3s ease all;
+}
+
+.Register-btn:hover {
+  background: #28377C;
+  color: #FFFFFF;
+}
+
+.Login1-btn {
+  background: #FFFFFF;
+  color: #84D95C;
+  border: 2px solid #84D95C;
+  text-decoration: none;
+  width: 100px;
+  text-align: center;
+  padding: 15px 20px;
+  font-size: medium;
+  font-weight: 600;
+  border-radius: 6px 0px 0px 6px;
+}
+
+.Login-btn:hover {
+  background: #84D95C;
+  color: #FFFFFF;
+}
+
+* {
+  @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+  font-family: "Roboto", sans-serif;
+}
+
+body .Title-divs {
+  font-size: x-large;
+  font-weight: bolder;
+  margin-bottom: 50px;
+}
+body .banner {
+  width: 100%;
+  height: 500px;
+}
+body .banner div .Div-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .banner div .Div-text .text {
+  background: none;
+  position: absolute;
+  top: 150px;
+  z-index: 1;
+  color: #FFFFFF;
+  font-size: x-large;
+}
+body .About-us {
+  margin: 50px 0px 100px;
+}
+body .About-us .us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .About-us .Div-about-us {
+  display: flex;
+  justify-content: center;
+  margin: 0px 150px;
+}
+body .About-us .Div-about-us .img-us {
+  min-height: 372px;
+  max-height: 372px;
+  border-radius: 5px;
+}
+body .About-us .Div-about-us .Parrafo {
+  margin: 30px 50px;
+}
+body .container-curso {
+  margin: 50px 0px 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+body .container-curso .Grid-curso {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 100px;
+}
+body .container-curso .Grid-curso [class^=curso-] {
+  height: 500px;
+  width: 350px;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  overflow: hidden;
+}
+body .container-curso .Grid-curso [class^=curso-] .Div-Curso-img img {
+  width: 350px;
+}
+body .container-curso .Grid-curso [class^=curso-] .Div-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .container-curso .Grid-curso [class^=curso-] .Div-title .Title-curso {
+  margin-top: 10px;
+  font-size: large;
+}
+body .container-curso .Grid-curso [class^=curso-] .Description p {
+  margin: 30px 20px 0px;
+}
+body .container-curso .Grid-curso [class^=curso-] .Button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+body .container-curso .Grid-curso [class^=curso-] .Precio {
+  display: flex;
+  justify-content: center;
+  color: #4054B2;
+  font-weight: 500;
+  margin-top: 20px;
+}
+body .Contact-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+body .Contact-form .Contact-form-grid {
+  display: grid;
+  grid-template-columns: 300px 600px;
+  height: 550px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 50px;
+  border-radius: 10px;
+}
+body .Contact-form .Contact-form-grid .img-lateral {
+  width: 300px;
+  height: 550px;
+  overflow: hidden;
+  border-radius: 10px 0px 0px 10px;
+}
+body .Contact-form .Contact-form-grid .Blue-panel {
+  width: 300px;
+  height: 550px;
+  background: #1E73BE;
+  opacity: 30%;
+  border-radius: 10px 0px 0px 10px;
+  position: absolute;
+}
+body .Contact-form .Contact-form-grid .form {
+  background: #FFFFFF;
+  border-radius: 0px 10px 10px 0px;
+  border: 1px solid #C4C4C4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .Contact-form .Contact-form-grid .form span {
+  color: #6EC1E4;
+  font-weight: bold;
+  font-size: x-large;
+  position: relative;
+  bottom: 30px;
+}
+body .Contact-form .Contact-form-grid .form #div-name-tel {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  position: relative;
+  bottom: 10px;
+}
+body .Contact-form .Contact-form-grid .form #div-email {
+  position: relative;
+}
+body .Contact-form .Contact-form-grid .form #div-email #Input-email {
+  width: 505px;
+}
+body .Contact-form .Contact-form-grid .form #div-mesage {
+  position: relative;
+  top: 10px;
+}
+body .Contact-form .Contact-form-grid .form #div-mesage #Input-mesage {
+  resize: none;
+  width: 505px;
+}
+body .Contact-form .Contact-form-grid .form #Lb-name, body .Contact-form .Contact-form-grid .form #Lb-tel, body .Contact-form .Contact-form-grid .form #Lb-email, body .Contact-form .Contact-form-grid .form #Lb-mesage {
+  color: #797777;
+  font-weight: 600;
+}
+body .Contact-form .Contact-form-grid .form #div-button {
+  position: relative;
+  top: 40px;
+  left: 180px;
+}
+body .Contact-form .Contact-form-grid .form #div-button button {
+  background-color: #6EC1E4;
+  border: none;
+  width: 150px;
+  font-weight: bold;
+  color: #FFFFFF;
+  border-radius: 5px;
+  transition: 0.3s ease all;
+  padding: 8px 16px;
+}
+body .Contact-form .Contact-form-grid .form #div-button button:hover {
+  background-color: #84D95C;
+}
+
+/*# sourceMappingURL=Style.css.map */

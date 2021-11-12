@@ -1,0 +1,262 @@
+@import '../utilities/variables';
+
+body{
+    .Title-divs{
+        font-size: x-large;
+        font-weight: bolder;
+        margin-bottom: 50px;
+    }
+
+    .banner{
+        width: 100%;
+        height: 500px;
+        // display: flex;
+        // justify-content: center;
+
+        div{
+            
+            .Div-text{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+    
+                .text{
+                    background: none;
+                    position: absolute;
+                    top: 150px;
+    
+                    z-index: 1;
+                    color: $white;
+                    font-size: x-large;
+                    
+                    
+                }
+            }
+
+        }
+        
+    }
+
+    // About-us Style
+    .About-us{
+        margin: 50px 0px 100px;
+
+        .us{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+
+        }
+
+
+        .Div-about-us{
+            display: flex;
+            justify-content: center;
+            margin: 0px 150px;
+
+            .img-us{
+                // width: 100%;
+                // min-width: 695px;
+
+                min-height: 372px;
+                max-height: 372px;
+                border-radius: $border-r-img;
+                // background-position: center, center;
+                // overflow: hidden;
+                // background-size: cover;
+            }
+            .Parrafo{
+                margin: 30px 50px;
+            }
+
+        }
+    }
+
+    //Curso Style
+    .container-curso{
+        margin: 50px 0px 100px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .Grid-curso{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 100px;
+
+            [class^="curso-"]{
+                height: 500px;
+                width: 350px;
+                background: $white;
+                border: 1px solid #000000;
+                box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.3);
+                border-radius: $border-r-div;
+                overflow: hidden;
+
+                // display: flex;
+                // justify-content: space-around;
+                // align-items: center;
+                // flex-direction: column;
+
+                .Div-Curso-img{
+
+                    img{
+                        width: 350px; 
+                    }
+                }
+                .Div-title{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    .Title-curso{
+                        margin-top: 10px;
+                        font-size: large;
+                        // font-weight: bolder;
+                    }
+
+                }
+                .Description{
+
+                    p{
+                        margin: 30px 20px 0px;
+                    }
+                }
+                .Button{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    margin-top: 30px;
+                }
+                .Precio{
+                    display: flex;
+                    justify-content: center;
+                    color: $blueDark;
+                    font-weight: 500;
+
+                    margin-top: 20px;
+                }
+            }
+            
+        }
+
+    }
+
+    .Contact-form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: $border-r-div;
+        // background: #000000;
+        
+
+        // width: 1000px;
+
+
+        .Contact-form-grid{
+            display: grid;
+            grid-template-columns: 300px 600px;
+            height: 550px;
+            box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+            margin-bottom: 50px;
+            border-radius: 10px;
+
+            .img-lateral{
+                width: 300px;
+                height: 550px;
+                overflow: hidden;
+                border-radius: 10px 0px 0px 10px;
+            }
+            .Blue-panel{
+                width: 300px;
+                height: 550px;
+                background: #1E73BE;
+                opacity: 30%;
+                border-radius: 10px 0px 0px 10px;
+                position: absolute;
+            }
+            
+
+            .form{
+                background: $white;
+                border-radius: 0px 10px 10px 0px;
+                border: 1px solid #C4C4C4;
+                
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                
+                span{
+                    color: $blueLigth;
+                    font-weight: bold;
+                    font-size: x-large;
+                    position: relative;
+                    bottom: 30px;
+                }
+
+                #div-name-tel{
+                    display: flex;
+                    justify-content: space-between;
+                    gap: 100px;
+                    position: relative;
+                    bottom: 10px;
+                }
+
+                #div-email{
+                    position: relative;
+                    // right: 150px;
+                    // left: 500px;
+                    #Input-email{
+                        width: 505px;
+                    }
+                    
+                }
+                #div-mesage{
+                    position: relative;
+                    top: 10px;
+                    // right: 150px;
+
+                    #Input-mesage{
+                        resize: none;
+                        width: 505px;
+                    }
+                }
+
+                #Lb-name,#Lb-tel,#Lb-email,#Lb-mesage{
+                    color: #797777;
+                    font-weight: 600;
+                }
+
+                #div-button{
+                    
+                    position: relative;
+                    top: 40px;
+                    left: 180px;
+                    
+                    button{
+                        background-color: $blueLigth;
+                        border: none;
+                        width: 150px;
+                        font-weight: bold;
+                        color: $white;
+                        border-radius: 5px;
+                        transition: 0.3s ease all;
+                        padding: 8px 16px;
+
+                    }
+                    button:hover{
+                        background-color: $green;
+                    }
+                }
+
+            }
+        }
+    }
+}
+

@@ -1,0 +1,28 @@
+// Footer style
+footer{
+    background-color: $blueDark;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 20px;
+    margin-top: auto;
+
+    a{
+        text-decoration: none;
+        color: $white;
+        border: 1px solid $white;
+        padding: 10px 30px;
+        transition: 0.3s ease all;
+
+    }
+    a:hover{
+        color: $white;
+        background-color: $Hover-color;
+    }
+
+    span{
+        color: $white;
+        font-weight: 700;
+    }
+}

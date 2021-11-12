@@ -1,0 +1,32 @@
+La base de datos que deben crear en su servidor local es:
+
+create database GeneaCoachBD;
+
+Luego, la tabla registro de usuario es la siguiente:
+
+create table RegistrarUsuario (
+MatriculaUsu int not null auto_increment primary key,
+Nombre varchar(100),
+Apellido varchar(100),
+Correo_Electronico varchar(100) not null,
+Contraseña varchar(100)
+) ENGINE='InnoDB' DEFAULT CHARSET = LATIN1; 
+/* InnoDB Será nuestro mecanismo de almacenamiento de datos open source para las tablas.*/
+
+
+/* Esta es la vista para cuando quieras ver las contraseñas descifradas */
+
+create view vwDatosDecrypt as
+select MatriculaUsu,
+ Nombre,Apellido
+ Correo_Electronico, ( aes_decrypt(Contraseña,'AES')) RECUPERADO
+ from registrarusuario;
+
+
+select * from vwDatosDecrypt;
+
+
+OJO: Tienen que crear las tablas y la base de datos al pie de la letra del documento, para que no de error de conexion.
+
+Este script no es oficial, es temporal a lo que siga trabajando en las demás tablas y funciones.
+

@@ -1,0 +1,284 @@
+* {
+  @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+  font-family: "Roboto", sans-serif;
+}
+
+#header {
+  width: 100%;
+  height: 80px;
+  background: #4054B2;
+  display: flex;
+  justify-content: space-between;
+}
+#header .Container-nav-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin-left: 100px;
+}
+#header .Container-nav-logo a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+#header .nav {
+  display: flex;
+  align-items: center;
+  margin-right: 100px;
+}
+#header .nav .List .nav-item a {
+  padding: 8px 16px;
+}
+#header .nav .Botones {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#header .nav .Botones form .search {
+  margin: 8px 16px;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+}
+#header .nav .Botones form .search .search::placeholder {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+#header .nav .List {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0px;
+}
+#header .nav .List .nav_item, #header .nav .List li, #header .nav .List a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #4054B2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding: 20px;
+  margin-top: auto;
+}
+footer a {
+  text-decoration: none;
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  padding: 10px 30px;
+  transition: 0.3s ease all;
+}
+footer a:hover {
+  color: #FFFFFF;
+  background-color: #28377C;
+}
+footer span {
+  color: #FFFFFF;
+  font-weight: 700;
+}
+
+* {
+  @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+  font-family: "Roboto", sans-serif;
+}
+
+#Button-1 {
+  text-decoration: none;
+  background: #4054B2;
+  color: #FFFFFF;
+  padding: 9px 20px;
+  margin: 0px 10px;
+  border-radius: 5px;
+  transition: 0.3s ease all;
+}
+
+#Button-1:hover {
+  background: #28377C;
+  color: #FFFFFF;
+}
+
+#Button-2 {
+  text-decoration: none;
+  background: #FFFFFF;
+  color: #4054B2;
+  padding: 8px 18px;
+  margin: 0px 10px;
+  border-radius: 5px;
+  transition: 0.3s ease all;
+}
+
+#Button-2:hover {
+  background: #84D95C;
+  color: #FFFFFF;
+}
+
+.Register-btn {
+  background: #4054B2;
+  color: #FFFFFF;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  padding: 15px 20px;
+  font-size: medium;
+  font-weight: 600;
+  border-radius: 6px 0px 0px 6px;
+  transition: 0.3s ease all;
+}
+
+.Register-btn:hover {
+  background: #28377C;
+  color: #FFFFFF;
+}
+
+.Login-btn {
+  background: #FFFFFF;
+  color: #84D95C;
+  border: 2px solid #84D95C;
+  text-decoration: none;
+  width: 100px;
+  text-align: center;
+  padding: 15px 20px;
+  font-size: medium;
+  font-weight: 600;
+  border-radius: 0px 6px 6px 0px;
+}
+
+.Login-btn:hover {
+  background: #84D95C;
+  color: #FFFFFF;
+}
+
+.Register1-btn {
+  background: #4054B2;
+  color: #FFFFFF;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  padding: 15px 20px;
+  font-size: medium;
+  font-weight: 600;
+  border-radius: 0px 6px 6px 0px;
+  transition: 0.3s ease all;
+}
+
+.Register-btn:hover {
+  background: #28377C;
+  color: #FFFFFF;
+}
+
+.Login1-btn {
+  background: #FFFFFF;
+  color: #84D95C;
+  border: 2px solid #84D95C;
+  text-decoration: none;
+  width: 100px;
+  text-align: center;
+  padding: 15px 20px;
+  font-size: medium;
+  font-weight: 600;
+  border-radius: 6px 0px 0px 6px;
+}
+
+.Login-btn:hover {
+  background: #84D95C;
+  color: #FFFFFF;
+}
+
+* {
+  @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  margin: 0px;
+  height: 120vh;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+body .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  top: 30px;
+}
+body .container .title {
+  font-weight: 600;
+  color: #4054B2;
+  font-size: x-large;
+}
+body .container .form-box {
+  position: relative;
+  top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 700px;
+  background: #FFFFFF;
+  box-sizing: border-box;
+  box-shadow: 6px 3px 42px 1px #4054B2;
+  border-radius: 5px;
+  border: 2px solid #4054B2;
+}
+body .container .form-box img {
+  position: relative;
+  bottom: 80px;
+}
+body .container .form-box .div-buttons {
+  display: flex;
+}
+body .container .form-box .Div-input-name, body .container .form-box .Div-input-email, body .container .form-box .Div-input-pass {
+  display: flex;
+  flex-direction: column;
+}
+body .container .form-box .Div-input-name .Input-name, body .container .form-box .Div-input-name .Input-email, body .container .form-box .Div-input-name .Input-pass, body .container .form-box .Div-input-email .Input-name, body .container .form-box .Div-input-email .Input-email, body .container .form-box .Div-input-email .Input-pass, body .container .form-box .Div-input-pass .Input-name, body .container .form-box .Div-input-pass .Input-email, body .container .form-box .Div-input-pass .Input-pass {
+  border-radius: 5px;
+  border: none;
+  background-color: #F6F6F6;
+  outline: none;
+  height: 30px;
+  width: 300px;
+  position: relative;
+}
+body .container .form-box .Div-input-name .lb-name, body .container .form-box .Div-input-name .lb-email, body .container .form-box .Div-input-name .lb-pass, body .container .form-box .Div-input-email .lb-name, body .container .form-box .Div-input-email .lb-email, body .container .form-box .Div-input-email .lb-pass, body .container .form-box .Div-input-pass .lb-name, body .container .form-box .Div-input-pass .lb-email, body .container .form-box .Div-input-pass .lb-pass {
+  color: #4054B2;
+  font-weight: 600;
+}
+body .container .form-box .btn-register {
+  position: relative;
+  top: 20px;
+  color: #FFFFFF;
+  border: none;
+  background: #4054B2;
+  width: 150px;
+  height: 35px;
+  border-radius: 6px;
+  font-weight: 600;
+}
+body .container .form-box .btn-register:hover {
+  background: #28377C;
+  color: #FFFFFF;
+}
+body .container .form-box span {
+  font-weight: 600;
+  position: relative;
+  top: 40px;
+}
+body .container .form-box span a {
+  text-decoration: none;
+  color: #4054B2;
+}
+
+* {
+  @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+  font-family: "Roboto", sans-serif;
+}
+
+/*# sourceMappingURL=Docente.css.map */

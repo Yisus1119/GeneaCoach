@@ -1,0 +1,112 @@
+// Header button style
+//Button Sign in
+@import '../utilities/variables';
+#Button-1{
+    text-decoration: none;
+
+    background: $blueDark;
+    color: $white;
+    padding: 9px 20px;
+    margin: 0px 10px;
+    border-radius: $border-r-btn;
+    transition: 0.3s ease all;
+}
+#Button-1:hover{
+    background: $Hover-color;
+    color: $white;
+}
+
+
+//Button Empieza gratis
+#Button-2{
+    text-decoration: none;
+
+    background: $white;
+    color: $blueDark;
+    padding: 8px 18px;
+    margin: 0px 10px;
+    border-radius: $border-r-btn;
+    transition: 0.3s ease all;
+}
+#Button-2:hover{
+    background: $green;
+    color: $white;
+    
+}
+
+// Button Register and Login
+
+.Register-btn{
+    background: $blueDark;
+    color: $white;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 20px;
+    font-size: medium;
+    font-weight: 600;
+    border-radius: $right-border-r;
+    transition: 0.3s ease all;
+
+}
+.Register-btn:hover{
+    background: $Hover-color;
+    color: $white;
+    
+}
+
+.Login-btn{
+    background: $white;
+    color: $green;
+    border: 2px solid $green;
+    text-decoration: none;
+    width: 100px;
+    text-align: center;
+    padding: 15px 20px;
+    font-size: medium;
+    font-weight: 600;
+    border-radius: $left-borde-r;
+}
+.Login-btn:hover{
+    background: $green;
+    color: $white;
+    
+}
+
+// 
+.Register1-btn{
+    background: $blueDark;
+    color: $white;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 20px;
+    font-size: medium;
+    font-weight: 600;
+    border-radius: $left-borde-r;
+    transition: 0.3s ease all;
+
+}
+.Register-btn:hover{
+    background: $Hover-color;
+    color: $white;
+    
+}
+
+.Login1-btn{
+    background: $white;
+    color: $green;
+    border: 2px solid $green;
+    text-decoration: none;
+    width: 100px;
+    text-align: center;
+    padding: 15px 20px;
+    font-size: medium;
+    font-weight: 600;
+    border-radius: $right-border-r;
+}
+.Login-btn:hover{
+    background: $green;
+    color: $white;
+    
+}

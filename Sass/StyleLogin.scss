@@ -1,0 +1,110 @@
+html,body{
+    height: 100%;
+}
+#formulario {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.125rem;
+    color:#4054B2;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+#Container{
+    width: 500px;
+    height: 600px;
+    margin: auto;
+    margin-top: 4%;
+    // border:  solid ;
+    margin-bottom: 10%;
+    box-shadow: 4px 0px 20px 3px #4054B2;
+    border-radius: 4px;
+    
+}
+#logo{
+    margin: auto;
+    margin-top: 3px;
+    margin-left: 40%;
+    
+}
+
+#formulario{
+    padding-top: 50px;
+    // padding-bottom: 20px;
+    padding-left: 23%;
+}
+.input{
+    border: none;
+    border-radius: 5px ;
+    background-color: #f6f6f6;
+}
+
+
+#facebook{
+    margin-left: 6%;
+}
+#google{
+    margin-left: 25%;
+}
+.button{
+    border-radius: 5px;
+    width: 30%;
+    height: 44px;
+    border: 2px solid;
+    background-color: #4054B2;
+}
+#btnRegister{
+    border-radius: 5px  0px 0px 5px;
+    width: 35%;
+    // height: 45px;
+    border: 1px solid #99CC67 ;
+    background-color: #ffff;
+    color: #99CC67;
+    text-decoration: none;
+    padding: 15px ;
+}
+#btnLogin{
+    border-radius: 1px  5px 5px 1px;
+    border: 1px solid #4054B2;
+    // border-right: 5px;
+    width: 35%;
+    height: 45px;
+    background-color: #4054B2;
+    color: #ffff;
+    padding: 15px 30px;
+}
+#btnSesion{
+    margin-left: 30%;
+    margin-bottom: 7px;
+    margin-top: 10%;
+    width: 40%;
+    height: 40px;
+    border: 2px solid ;
+    border-radius: 10px;
+    color: white;
+    background-color: #4054B2;
+
+}
+
+#link{
+    margin-left: 20%;
+    margin-top: 10px;
+    
+}
+// #linkRegistrar{}
+#a{
+    margin-left: 10%;
+    // margin-top: 20%;
+    color: #4054B2;
+    font-size: large;
+}
+#terms{
+    font-size: 11px;
+    line-height: 1.43;
+    margin-left: 10%;
+}
+.input{
+    width: 80%;
+    font-size: 13px;
+    padding: 12px;
+}

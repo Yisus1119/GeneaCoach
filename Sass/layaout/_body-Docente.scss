@@ -1,0 +1,100 @@
+@import '../utilities/variables';
+
+body{
+    margin: 0px;
+    height: 120vh;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        top: 30px;
+
+        .title{
+            font-weight: 600;
+            color: $blueDark;
+            font-size: x-large;
+        }
+
+        .form-box{
+            position: relative;
+            top: 40px;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            width: 600px;
+            height: 700px;
+            background: $white;
+            box-sizing: border-box;
+            box-shadow: 6px 3px 42px 1px $blueDark;
+            border-radius: $border-r-div;
+            border: 2px solid $blueDark;
+
+            img{
+                position: relative;
+                bottom: 80px;
+            }
+
+            .div-buttons{
+                display: flex;
+            }
+
+            .Div-input-name, .Div-input-email, .Div-input-pass{
+                display: flex;
+                flex-direction: column;
+
+                .Input-name, .Input-email, .Input-pass{
+                    border-radius: $border-r-div;
+                    border: none;
+                    background-color: #F6F6F6;
+                    outline: none;
+                    height: 30px;
+                    width: 300px;
+
+                    position: relative;
+                    // right: 60px;
+                }
+                .lb-name, .lb-email, .lb-pass{
+                    color: $blueDark;
+                    font-weight: 600;
+                }
+
+            }
+            .btn-register{
+                position: relative;
+                top: 20px;
+                color: $white;
+                border: none;
+                background: $blueDark;
+                width: 150px;
+                
+                height: 35px;
+                border-radius: 6px;
+                font-weight: 600;
+            }
+            .btn-register:hover{
+                background: $Hover-color;
+                color: $white;
+            }
+
+            span{
+                font-weight: 600;
+                position: relative;
+                top: 40px;
+                a{
+                    text-decoration: none;
+                    color: $blueDark;
+                }
+            }
+        }
+
+    }
+}

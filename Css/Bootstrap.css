@@ -1,0 +1,58 @@
+* {
+  @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+  font-family: "Roboto", sans-serif;
+}
+
+#header {
+  width: 100%;
+  height: 80px;
+  background: #4054B2;
+  display: flex;
+  justify-content: space-between;
+}
+#header .Container-nav-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin-left: 100px;
+}
+#header .Container-nav-logo a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+#header .nav {
+  display: flex;
+  align-items: center;
+  margin-right: 100px;
+}
+#header .nav .List .nav-item a {
+  padding: 8px 16px;
+}
+#header .nav .Botones {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#header .nav .Botones form .search {
+  margin: 8px 16px;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+}
+#header .nav .Botones form .search .search::placeholder {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+#header .nav .List {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0px;
+}
+#header .nav .List .nav_item, #header .nav .List li, #header .nav .List a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=Bootstrap.css.map */
