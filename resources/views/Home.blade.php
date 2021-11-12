@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-@extends('header')
-@extends('footer')
-
+  
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -23,11 +21,9 @@
 
 <body>
   <!-- Header -->
-@section('ContenedorHeader')
 
   <!-- End Header -->
 
-@endsection
   <!-- Gradient -->
   <section class="banner">
     <div style="height: 500px; overflow: hidden">
@@ -317,7 +313,6 @@
   <!-- End Contact-form -->
 
   <!-- Footer -->
-  @section('ContenedorFooter')
   <!-- End-Footer -->
 </body>
 
